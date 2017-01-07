@@ -1,3 +1,5 @@
+require('flatpickr');
+
 angular.module('angular-flatpickr', [])
     .directive('ngFlatpickr', [function() {
     return {
