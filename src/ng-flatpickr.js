@@ -1,4 +1,4 @@
-angular.module('angular-flatpcikr', [])
+angular.module('angular-flatpickr', [])
     .directive('ngFlatpickr', [function() {
     return {
         require: 'ngModel',
